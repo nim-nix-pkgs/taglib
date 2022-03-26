@@ -11,6 +11,7 @@
   inputs.src-taglib-master.ref   = "refs/heads/master";
   inputs.src-taglib-master.owner = "alex-laskin";
   inputs.src-taglib-master.repo  = "nim-taglib";
+  inputs.src-taglib-master.dir   = "";
   inputs.src-taglib-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
